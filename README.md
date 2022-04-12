@@ -1,3 +1,7 @@
 # coszio.github.io
-Página personal para publicar mi trabajo, por el momento contiene:
- - Mi curriculum elaborado para la clase de Desarrollo de Aplicaciones Web
+
+This is a website to showcase my personal projects, as well as others in which I have contributed.
+
+# Live at:
+
+<https://coszio.github.io/>

@@ -17,30 +17,6 @@ h1 {
 p {
     font-weight: 100;
 }
-#profile-img {
-    border: solid;
-    border-style: groove;
-    border-width: 10px;
-}
-#copyright {
-    float:left;
-    height:50px;
-    text-align: center;
-}
-#datos-personales {
-    float:right;
-    width: 50%;
-    align-self: center;
-    text-align: center;
-    background-color:olive;
-    border:solid;
-}
-
-div.seccion{
-    margin: 0px 20% 0px 20%;
-    border-top:solid 1px;
-
-}
 
 footer {
     position: relative;
