@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: rgba(220, 251, 255, 0.863);
+    background: rgba(220, 251, 255, 0.863);
+    max-width: fit-content;
 }
 
 h1 {

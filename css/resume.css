@@ -8,7 +8,7 @@
     height:50px;
     text-align: center;
 }
-#datos-personales {
+#personal-details {
     float:right;
     width: 50%;
     align-self: center;
@@ -17,8 +17,39 @@
     border:solid;
 }
 
-div.seccion{
-    margin: 0px 20% 0px 20%;
-    border-top:solid 1px;
-
+.activity {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0rem;
 }
+
+.duration {
+    font-size: smaller;
+    color: gray;
+    margin-top: 0.3rem;
+}
+
+.description > ul > li {
+    color: rgb(75, 75, 75);
+    font-weight: 100;
+}
+
+.stack {
+    font-size: smaller;
+    color: gray;
+    margin-top: 0.3rem;
+}
+
+div.section{
+    margin: 0px 20% 0px 20%;
+    border-top: solid 1px;
+}
+
+div.statement {
+    margin: 0px 15% 0px 15%;
+}
+
+/* body {
+    margin-left: 15%;
+    margin-right: 15%;
+} */
