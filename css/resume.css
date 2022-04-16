@@ -1,8 +1,9 @@
-html > body {
-  background:
-      linear-gradient(217deg, rgba(241, 225, 97, 0.1), rgba(255,0,0,0) 70.71%) no-repeat,
-      linear-gradient(127deg, rgba(42, 255, 255, 0.1), rgba(0,255,0,0) 70.71%) no-repeat,
-      linear-gradient(355deg, rgba(50, 9, 252, 0.1), rgba(0,0,255,0) 70.71%) no-repeat;
+body {
+    background:
+        linear-gradient(217deg, rgba(241, 225, 97, 0.1), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(42, 255, 255, 0.1), rgba(0,255,0,0) 70.71%),
+        linear-gradient(355deg, rgba(50, 9, 252, 0.1), rgba(0,0,255,0) 70.71%),
+        white;
 
     margin-top: 2rem;
     min-height: 100vh;
@@ -13,14 +14,9 @@ html > body {
     border-width: 0.5vw;
     max-width:70%;
 }
-#copyright {
-    float:left;
-    height:50px;
-    text-align: center;
-}
+
 #personal-details {
-    float:right;
-    width: 50%;
+    min-width: 100%;
     align-self: center;
     text-align: center;
 }
