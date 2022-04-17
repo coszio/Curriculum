@@ -10,8 +10,6 @@ body {
 
   width: min(100% - 2rem, 20cm);
   margin-inline: auto;
-  margin-left: 15%;
-  margin-right: 15%;
   margin-top: 6rem;
   min-height: 100vh;
 }
