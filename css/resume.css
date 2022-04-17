@@ -1,64 +1,103 @@
 body {
-    background:
-        linear-gradient(217deg, rgba(241, 225, 97, 0.1), rgba(255,0,0,0) 70.71%),
-        linear-gradient(127deg, rgba(42, 255, 255, 0.1), rgba(0,255,0,0) 70.71%),
-        linear-gradient(355deg, rgba(50, 9, 252, 0.1), rgba(0,0,255,0) 70.71%),
-        white;
+  background: linear-gradient(
+      217deg,
+      rgba(241, 225, 97, 0.1),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(42, 255, 255, 0.1), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(355deg, rgba(50, 9, 252, 0.1), rgba(0, 0, 255, 0) 70.71%),
+    white;
 
-    margin-top: 2rem;
-    min-height: 100vh;
+  margin-top: 1rem;
+  min-height: 100vh;
+  width: min(100% - 2rem, 20cm);
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+.left {
+}
+
+#mask {
+    height: 8rem;
+    width: 8rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.center {
+  text-align: center;
 }
 
 #profile-img {
-    border: solid;
-    border-width: 0.5vw;
-    max-width:70%;
+  max-width: 600px;
+  margin: -28px -240px;
 }
 
 #personal-details {
-    min-width: 100%;
-    align-self: center;
-    text-align: center;
+  min-width: 100%;
+  align-self: center;
+  text-align: center;
 }
 
 .activity {
-    font-size: large;
-    font-weight: bold;
-    margin-bottom: 0rem;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 0rem;
 }
 
 .duration {
-    font-size: smaller;
-    color: gray;
-    margin-top: 0.3rem;
+  font-size: smaller;
+  color: gray;
+  margin-top: 0.3rem;
 }
 
 .description > ul > li {
-    color: rgb(75, 75, 75);
-    font-weight: 100;
+  color: rgb(75, 75, 75);
+  font-weight: 100;
 }
 
 .stack {
-    font-size: smaller;
-    color: gray;
-    margin-left: 1rem;
+  font-size: smaller;
+  color: gray;
+  margin-left: 1rem;
 }
 
-div.section{
-    margin: 0px 20% 0px 20%;
-    border-top: solid 1px;
+div.section {
+  /* margin: 5vh 20%; */
+  padding-top: 2vh;
+  margin-top: 2vh;
+  border-top: solid 1px;
 }
 
-div.statement {
-    margin: 0px 15% 0px 15%;
+div#statement {
+  /* margin: 5vh 20%; */
+}
+
+#statement > p {
+  font-size: x-large;
 }
 
 @media screen and (max-width: 600px) {
-    div.section{
-        margin: 0px 2% 0px 2%;
-        border-top: solid 1px;
-    }
-    div.statement {
-        margin: 0;
-    }
+  .wrapper {
+    flex-direction: column;
+  }
+  #statement > p {
+    font-size: large;
+  }
+ 
 }
