@@ -1,17 +1,22 @@
 body {
-  background:
-      linear-gradient(217deg, rgba(241, 225, 97, 0.9), rgba(255,0,0,0) 70.71%),
-      linear-gradient(127deg, rgba(42, 255, 227, 0.9), rgba(0,255,0,0) 70.71%),
-      linear-gradient(355deg, rgba(50, 9, 252, 0.9), rgba(0,0,255,0) 70.71%),
-      white;
+  background: linear-gradient(
+      217deg,
+      rgba(241, 225, 97, 0.9),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(42, 255, 227, 0.9), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(355deg, rgba(50, 9, 252, 0.9), rgba(0, 0, 255, 0) 70.71%),
+    white;
 
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 6rem;
-    min-height: 100vh;
+  width: min(100% - 2rem, 20cm);
+  margin-inline: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 6rem;
+  min-height: 100vh;
 }
 
 .portfolio > ul > li > p > a {
-    font-size: large;
-    font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 }
