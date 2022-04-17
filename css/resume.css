@@ -62,30 +62,25 @@ body {
 
 .duration {
   font-size: smaller;
-  color: gray;
+  color: #808080;
   margin-top: 0.3rem;
 }
 
 .description > ul > li {
-  color: rgb(75, 75, 75);
+  color: #4b4b4b;
   font-weight: 100;
 }
 
 .stack {
   font-size: smaller;
-  color: gray;
+  color: #808080;
   margin-left: 1rem;
 }
 
 div.section {
-  /* margin: 5vh 20%; */
   padding-top: 2vh;
   margin-top: 2vh;
   border-top: solid 1px;
-}
-
-div#statement {
-  /* margin: 5vh 20%; */
 }
 
 #statement > p {
